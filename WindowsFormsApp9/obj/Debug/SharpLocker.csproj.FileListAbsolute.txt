@@ -1,0 +1,10 @@
+C:\Users\User\Downloads\SharpLocker-master\SharpLocker-master\WindowsFormsApp9\obj\Debug\SharpLocker.csprojAssemblyReference.cache
+C:\Users\User\Downloads\SharpLocker-master\SharpLocker-master\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\User\Downloads\SharpLocker-master\SharpLocker-master\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\User\Downloads\SharpLocker-master\SharpLocker-master\WindowsFormsApp9\obj\Debug\SharpLocker.csproj.GenerateResource.cache
+C:\Users\User\Downloads\SharpLocker-master\SharpLocker-master\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\User\Downloads\SharpLocker-master\SharpLocker-master\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\User\Downloads\SharpLocker-master\SharpLocker-master\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\User\Downloads\SharpLocker-master\SharpLocker-master\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\User\Downloads\SharpLocker-master\SharpLocker-master\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\User\Downloads\SharpLocker-master\SharpLocker-master\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.UAC.resources

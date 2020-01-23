@@ -10,6 +10,8 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.DirectoryServices;
+using System.Collections;
 
 namespace WindowsFormsApp9
 {
@@ -28,6 +30,20 @@ namespace WindowsFormsApp9
             BackgroundImage = myimage;
             BackgroundImageLayout = ImageLayout.Stretch;
             this.TopMost = true;
+
+            List<string> lstUsers = new List<string>();
+            DirectoryEntry localMachine = new DirectoryEntry("WinNT://" + Environment.MachineName);
+            DirectoryEntry admGroup = localMachine.Children.Find("administrators", "group");
+            object members = admGroup.Invoke("members", null);
+            foreach (object groupMember in (IEnumerable)members)
+            {
+                DirectoryEntry member = new DirectoryEntry(groupMember);
+                if (member.Name.ToLower().Contains("admin"))
+                {
+                    lstUsers.Add(member.Name);
+                }
+            }
+
             string userName = System.Environment.UserName.ToString();
             label2.Text = userName;
             label2.BackColor = System.Drawing.Color.Transparent;
